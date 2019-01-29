@@ -27,10 +27,10 @@ def main():
     You write the tests per the _TODO_s below.
     """
     print(cardi(3,4))
-    window = rg.TurtleWindow()
+    #window = rg.TurtleWindow()
     hey('pink', 10)
     hey('cyan', 5)
-    window.close_on_mouse_click()
+    #window.close_on_mouse_click()
 
 ###############################################################################
 # DONE: 3a.  Define a function immediately below this _TODO_.
@@ -78,7 +78,7 @@ def cardi(side1, side2):
 #   for the arguments) to test whether you defined the function correctly.
 #
 def hey(color,thickness):
-#    window = rg.TurtleWindow
+    window = rg.TurtleWindow()
     there = rg.SimpleTurtle()
     there.pen.color ='green'
     there.pen.thickness = thickness
@@ -87,7 +87,7 @@ def hey(color,thickness):
     delilah.pen.thickness = 5
     there.forward(100)
     delilah.backward(100)
-#    window.close_on_mouse_click()
+    window.close_on_mouse_click()
 
 
 
